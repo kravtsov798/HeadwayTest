@@ -1,0 +1,137 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "APEInvalidURL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cannot find the audio dut to invalid URL."
+          }
+        }
+      }
+    },
+    "APEPlayerInitFailed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AudioPlayer initialization failed."
+          }
+        }
+      }
+    },
+    "CurrentPlayItemOfTotal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key point %d of %d"
+          }
+        }
+      }
+    },
+    "CurrentPlayItemOfTotalShort" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d of %d"
+          }
+        }
+      }
+    },
+    "Error" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        }
+      }
+    },
+    "NEClientError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Client error occurred. HTTP Code: %@. Please check your request."
+          }
+        }
+      }
+    },
+    "NEDecodingFailed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to decode data."
+          }
+        }
+      }
+    },
+    "NEInvalidResponse" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Received an invalid response from the server."
+          }
+        }
+      }
+    },
+    "NEInvalidURL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requeste URL is not valid."
+          }
+        }
+      }
+    },
+    "NEServerError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server error occurred. HTTP Code: %@. Please try again later."
+          }
+        }
+      }
+    },
+    "NEUnknownError" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unknown error occurred. Error code: %@."
+          }
+        }
+      }
+    },
+    "PlaybackRate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@x speed"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
