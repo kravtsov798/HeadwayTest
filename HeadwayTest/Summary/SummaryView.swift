@@ -89,25 +89,6 @@ struct SummaryView: View {
         PlayerToReaderPlayButton(isPlaying: store.player.player.isPlaying) {
             store.send(.player(.view(.playTapped)))
         }
-        
-//      ZStack {
-//        Color(.Background.toggle).clipShape(Capsule())
-//          .overlay{
-//            Capsule()
-//              .stroke(lineWidth: 1)
-//              .foregroundStyle(Color.Border.toggle)
-//          }
-//        
-//          Image(systemName: store.player.player.isPlaying ? "pause.fill" : "play.fill")
-//            .resizable()
-//            .aspectRatio(contentMode: .fit)
-//            .foregroundStyle(Color.Foreground.playerButton)
-//            .frame(height: 15)
-//      }
-//      .frame(width: 55, height: 55)
-//      .onTapGesture {
-//        store.send(.player(.view(.playTapped)))
-//      }
     }
 }
 

@@ -124,7 +124,7 @@ struct SummaryFeature {
         case .output(let outputAction):
             switch outputAction {
             case .dataSourceUpdated:
-                return .send(.reader(.input(.dataSourceUpdated)))
+                return .send(.player(.input(.dataSourceUpdated)))
                 
             case .scrollDirectionChanged(let direction):
                 return .send(.input( direction == .up ? .showToggle : .hideToggle))
